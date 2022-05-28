@@ -25,11 +25,11 @@ The tourist industry's development and expansion is influenced by a number of va
 
 
 
-<h2><img src="https://thumbs.gfycat.com/YoungTangibleKilldeer.webp" height="40px" width=="100px">Challenges we ran into </h2>
+<h2><img src="https://thumbs.gfycat.com/AcrobaticMatureGazelle.webp" height="40px" width=="100px">Challenges we ran into </h2>
 
-(1) getting errors in ferching the api, further it get solved by using some proper bit of codes to correct it.
-(2) connecting the forms to the mail system.
- 
+❉We faced problem in setting the position of an element.
+❉
+❉
 
 
 
