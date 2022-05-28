@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url('../National_Park/bg.jpeg');
+    background-image: url('bg.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
