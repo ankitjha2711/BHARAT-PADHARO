@@ -39,3 +39,5 @@ The tourist industry's development and expansion is influenced by a number of va
 ❉CSS 
 ❉JavaScript 
 ❉HTML5​
+
+<h2><img src="https://thumbs.gfycat.com/UnfortunateFrighteningGreathornedowl.webp" height="20px" width=="40px"> Favicon</h2>
