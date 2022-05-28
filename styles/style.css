@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  /* z-index: 1; */
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+header .logo
+{
+  color:darkred;
+  text-transform: uppercase;
+
+}
+.toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  background-color:darkred;
+  cursor: pointer;
+  z-index: 1;
+}
+.toggle.active
+{
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-color: darkred;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+.ghr{
+  display:flex;
+  align-items: center ;
+  column-gap: 0.7rem;
+  z-index: 200;
+}
+
+.goon{
+  z-index: 1;
+}
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(245, 245, 245);
+  transition: 0.5s;
+  z-index: 2;
+
+}
+.showcase.active
+{
+  right: 300px;
+  
+}
+
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode:overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{
+  font-size: 5em;
+  font-weight: 800;
+  color: darkred;
+  line-height: 1em;
+  text-transform: uppercase;
+ }
+
+.text h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: darkred;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: darkred;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: darkred;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: rgb(17, 17, 17);
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+* {
+    outline: none;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    min-height: 100%;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  body,
+  input {
+    cursor: url(http://k003.kiwi6.com/hotlink/vp054ir5gt/c1.png) 32 32, auto;
+    cursor: -webkit-image-set(url(http://k003.kiwi6.com/hotlink/vp054ir5gt/c1.png) 1x,url(http://k003.kiwi6.com/hotlink/z6fy599487/c2.png) 2x) 32 32, auto;
+  }
+  
+  body:active,
+  input:active {
+    cursor: url(http://k003.kiwi6.com/hotlink/3p6w4icbzt/c1a.png) 32 32, auto;
+    cursor: -webkit-image-set( url(http://k003.kiwi6.com/hotlink/3p6w4icbzt/c1a.png) 1x, url(http://k003.kiwi6.com/hotlink/6ma7828al1/c2a.png) 2x ) 32 32, auto;
+  }
+  
+  #app-cover {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    left: 0;
+    width: 434px;
+    margin: -41px auto 0 auto;
+  }
+  
+  #app {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    border-radius: 120px;
+    margin: 0 auto;
+    transition: 0.15s ease width;
+    z-index: 3;
+    display: none;
+  }
+  
+  form {
+    position: relative;
+    height: 82px;
+    cursor: auto;
+    border-radius: 120px;
+  }
+  
+  #f-element {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* overflow: hidden; */
+    border-radius: 120px;
+  }
+  
+  #inp-cover {
+    position: absolute;
+    top: 0;
+    right: 41px;
+    bottom: 0;
+    left: 0;
+    padding: 0 35px;
+    background-color: #fff;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkred;
+    border: 0;
+    padding: 30px 0;
+    margin: 0;
+    margin-top: 52px;
+    line-height: 1;
+    background-color: transparent;
+    transition: 0.15s ease margin-top;
+    cursor: auto;
+  }
+  
+  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    padding: 26px;
+    margin: 0;
+    border: 0;
+    background-color:darkred;
+    transition: 0.2s ease background-color;
+    border-radius: 50%;
+  }
+  
+  button.shadow {
+    box-shadow: 0 10px 30px #b37070;
+  }
+  
+  button i.fas {
+    display: block;
+    line-height: 1;
+  }
+  
+  #layer {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    
+    transition: 0.9s ease all;
+    z-index: 1;
+    
+    background-image:url("https://thumbs.dreamstime.com/b/tribal-animal-seamless-pattern-ethnic-style-animals-vector-texture-illustration-indian-lama-racoon-rabbit-fox-152586197.jpg");
+
+  }
+  
+  #layer.sl {
+
+    transition: 0.6s ease all;
+  }
+
+  #init{
+    position: absolute;
+    top: 8rem;
+    margin: -40px auto 0 auto;
+  }
+  
+  #layer{
+    position: fixed;
+    top: 82%;
+    margin: -40px auto 0 auto;
+  }
+  
+  #layer {
+    right: -100px;
+    left: -100px;
+  }
+  
+  #init {
+    right: 0;
+    left: 0;
+    width: 82px;
+    height: 82px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  #app.opened {
+    width: 434px;
+    box-shadow: 0 10px 30px #826688;
+    display: block;
+    margin-top: -400px;
+    z-index: 4;
+    
+  }
+  
+  .opened input.move-up {
+    margin-top: 0;
+  }
+  
+  .opened button {
+    color:darkred;
+    background-color: #fff;
+    box-shadow: none;
+    cursor: pointer;
+  }
+  
+  #app.opened + #layer {
+    width: 5000px;
+    height: 5000px;
+    margin-top: -2000px;
+    margin-right: -685px;
+    opacity: 1;
+    z-index: 2;
+  }
+
+
+
+  
+  
+  #app.opened ~ #init {
+    z-index: -1;
+  }
+
+
+
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.social li
+{
+  list-style: none;
+}
+
+
+
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+  
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+.menu
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url("https://thumbs.dreamstime.com/b/tribal-animal-seamless-pattern-ethnic-style-animals-vector-texture-illustration-indian-lama-racoon-rabbit-fox-152586197.jpg");
+}
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color:darkred;
+}
+.menu ul li a:hover
+{
+  color:black; 
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: darkred;
+
+  }
+
+  .shlok{
+    padding-bottom: 250px;
+    z-index: 1;
+    
+  }
+  
+  section h1 {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px darkred;
+    z-index: 1000;
+  }
+
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: darkred;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:1em;
+  text-align:center;
+  height:200px;
+  width:500px;
+  display:block;
+  position:absolute;
+  color:darkred;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  padding-bottom: 550px;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+.dropdown {
+  position: relative;
+  display:block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display:block;
+  position: absolute;
+  background-color:rgb(241, 151, 151);
+  min-width: 210px;
+  /* border: 1px solid rgb(212, 21, 21); */
+  top: 82px;
+  z-index: 1;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 20px 120px;
+  text-decoration: none;
+  display: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
