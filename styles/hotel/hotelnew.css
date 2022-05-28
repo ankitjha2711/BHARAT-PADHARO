@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url('C:/Users/welcome/Desktop/hotel/assets/h1.jpeg');
+    background-image: url('../hotel/h1.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
