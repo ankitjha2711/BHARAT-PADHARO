@@ -29,8 +29,7 @@ The tourist industry's development and expansion is influenced by a number of va
 <h2><img src="https://thumbs.gfycat.com/AcrobaticMatureGazelle.webp" height="40px" width=="100px">Challenges we ran into </h2>
 
 ❉We faced problem in setting the position of an element.
-❉
-❉
+❉We faced problems while integrity the pages in our website.
 
 
 
