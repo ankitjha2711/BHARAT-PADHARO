@@ -18,8 +18,17 @@ The tourist industry's development and expansion is influenced by a number of va
 
 ![image](https://user-images.githubusercontent.com/76564889/170840397-42568380-6e28-419a-a040-4405d3080a4b.png)
 ![image](https://user-images.githubusercontent.com/76564889/170840413-14accdc6-bf7d-4f7b-b4ff-c0fa96462410.png)
-![image](https://user-images.githubusercontent.com/76564889/170840458-490c41ce-3e78-4ef4-acb2-b16efcb5478a.png)
+![image](https://user-images.githubusercontent.com/76564889/170840551-39e2f5e7-1d11-4b8c-ad6c-36d751e686ac.png)
 
+
+
+
+
+
+<h2><img src="https://thumbs.gfycat.com/YoungTangibleKilldeer.webp" height="40px" width=="100px">Challenges we ran into </h2>
+
+(1) getting errors in ferching the api, further it get solved by using some proper bit of codes to correct it.
+(2) connecting the forms to the mail system.
  
 
 
