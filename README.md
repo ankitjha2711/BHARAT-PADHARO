@@ -16,9 +16,11 @@ The tourist industry's development and expansion is influenced by a number of va
 
 <h2><img src="https://thumbs.gfycat.com/EcstaticOblongAfricanmolesnake.webp" height="40px" width=="100px"> Some Screenshots of our Project </h2> 
 
+![image](https://user-images.githubusercontent.com/76564889/170840397-42568380-6e28-419a-a040-4405d3080a4b.png)
+![image](https://user-images.githubusercontent.com/76564889/170840413-14accdc6-bf7d-4f7b-b4ff-c0fa96462410.png)
+![image](https://user-images.githubusercontent.com/76564889/170840458-490c41ce-3e78-4ef4-acb2-b16efcb5478a.png)
 
-
-  ![image](https://user-images.githubusercontent.com/76564889/170837574-1f76e46d-6205-4510-8311-be6e5a4730e1.png) 
+ 
 
 
 
