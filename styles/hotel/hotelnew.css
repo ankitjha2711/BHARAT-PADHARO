@@ -12,11 +12,7 @@
 }
 
 body {
-
-    background-image: url('bg.jpeg');
-
-  
-
+    background-image: url('h1.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -93,7 +89,7 @@ footer{
     font-weight: 200;
 }
 header h1{
-    margin: 20px 260px;
+    margin: 20px 396px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'New Rocker', cursive;
@@ -207,7 +203,7 @@ a1:hover{
     background-color: rgb(135, 27, 174);
 } */
 .btn1:hover{
-    color:rgb(74, 73, 75);
+    color:#96B7C4;
     /* background-color:rgb(211, 148, 195); */
     border: 2px solid black;
 }
@@ -224,7 +220,7 @@ a1:hover{
     text-align: center;
 }
 .btn2:hover{
-    color:rgb(74, 73, 75);
+    color:#96B7C4;
     border: 2px solid black;
 }
 .btn {		
@@ -290,7 +286,7 @@ a1:hover{
 }
 
 body {
-	--def: #96B7C4; 	
+	--def: #111; 	
 	--inv: #111;
 }
 
