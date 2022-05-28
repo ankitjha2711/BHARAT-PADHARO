@@ -1,4 +1,4 @@
-# BHARAT-
+<h2> Bharatपधारो  <img src="https://c.tenor.com/DtEGh1dnWmQAAAAi/nature-green.gif" height="40px" width=="100px"></h2> 
 This project is made for the GDSC Hackathon.
 
 
@@ -10,12 +10,12 @@ With the exception of a few rare times, such as the Covid-19 phase, tourism has 
 Between 2013 and 2014, tourism-related data increased by 0.035 billion, from 1.087 billion to 1.122 billion, and this amount is predicted to climb to 1.8 billion by the end of 2030. (UNWTO, 2015). As a result, increasing the focus on tourist development in order to attract more visitors has become important.
 The tourist industry's development and expansion is influenced by a number of variables. The tourism location environment, the presence of transit facilities, the geographical location, and accessibility to other tourist attractions in the area are only a few of these considerations. In addition, the attitudes of visitors and how they view a tourist destination influence the destination's success and growth (Camilleri, 2018). As a result, these elements must be effectively controlled in order for the country's tourism to thrive.
 
-
-Our website made with a purpoes to manage these type of factors.
-
+##Our website was created with the intention of addressing these issues.
 
 
 
 
+
+Some Screenshots of our Project---
 
   ![image](https://user-images.githubusercontent.com/76564889/170837574-1f76e46d-6205-4510-8311-be6e5a4730e1.png) 
