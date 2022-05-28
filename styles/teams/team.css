@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/*********************************** Body **********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  html, body {
+    min-height: 100%;
+  }
+  
+  body {
+    background: linear-gradient(#cddc39, #009688);
+  }
+  
+  h1{
+      color: white;
+      text-align: center;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 50px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-shadow: 5px 5px red; 
+  }
+
+  h3{
+    font-family: 'Fredoka One', cursive;
+  }
+
+  li {
+    list-style: none;
+  }
+  
+  
+  /* style member component */
+  .list-members {
+    background: #ffe501;
+    width: 80%;
+    margin: 4% auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .member {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .member-image {
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .member-image img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+  }
+  
+  .member-image:hover img {
+    transform: scale(1.1);
+  }
+  
+  .member-info {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .member-info p {
+    margin: 20px 0;
+  }
+  
+  
+  /* style social link */
+  .social-link .fab {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #000;
+    margin: 0 7px;
+    cursor: pointer;
+    transition: transform .5s;
+  }
+  
+  .social-link .fab:hover {
+    background: #000;
+    color: #ffe501;
+    transform: translateY(-7px);
+  }
+  
+  /* Membuat segitiga */
+  .member-image::after {
+    content: '';
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 15px solid #ffe501;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  
+  /* Merubah posisi member-image dengan member-info */
+  @media screen and (min-width: 771px) {
+    .member:nth-child(4n+3) .member-info,
+    .member:nth-child(4n+4) .member-info {
+      order: 1;
+    }
+    .member:nth-child(4n+3) .member-image,
+    .member:nth-child(4n+4) .member-image {
+      order: 2;
+    }
+  
+    /* Merubah posisi sigitiga pada baris genap */
+    .member:nth-child(4n+3) .member-image::after,
+    .member:nth-child(4n+4) .member-image::after {
+      left: 0;
+      right: auto;
+      transform: translateY(-50%) rotateZ(180deg);
+    }
+  }
+  
+  
+  /* Mobile Styles */
+  @media screen and (max-width: 770px) {
+    .list-members {
+      width: 95%;
+    }
+    .member {
+      flex-basis: 100%;
+      font-size: 14px;
+    }
+    .social-link .fab {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+  
+    .member:nth-child(even) .member-info {
+      order: 1;
+    }
+    .member:nth-child(even) .member-image {
+      order: 2;
+    }
+    
+    /* Merubah posisi sigitiga elemen genap */
+    .member:nth-child(even) .member-image::after {
+      left: 0;
+      right: auto;
+      transform: translateY(-50%) rotateZ(180deg);
+    }
+  }
+
+  /********************* Footer ***********************/
+
+footer{
+    position: absolute;
+    bottom: -600;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3 rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
