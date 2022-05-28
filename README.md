@@ -41,3 +41,6 @@ The tourist industry's development and expansion is influenced by a number of va
 ❉HTML5​
 
 <h2><img src="https://thumbs.gfycat.com/UnfortunateFrighteningGreathornedowl.webp" height="20px" width=="40px"> Favicon</h2>
+
+![image](https://user-images.githubusercontent.com/76564889/170841260-4aa21062-cad5-4e17-90db-2a9e9309f52c.png)
+
