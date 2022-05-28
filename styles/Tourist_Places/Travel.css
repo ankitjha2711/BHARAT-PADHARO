@@ -302,7 +302,7 @@ a1:hover{
 }
 
 body {
-    background-image: url('C:/Users/shrut/Desktop/NP/images/bg.jpg');
+    background-image: url('../Tourist_Places/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
