@@ -22,6 +22,10 @@ The tourist industry's development and expansion is influenced by a number of va
 ![image](https://user-images.githubusercontent.com/76564889/170840397-42568380-6e28-419a-a040-4405d3080a4b.png)
 ![image](https://user-images.githubusercontent.com/76564889/170840413-14accdc6-bf7d-4f7b-b4ff-c0fa96462410.png)
 ![image](https://user-images.githubusercontent.com/76564889/170840551-39e2f5e7-1d11-4b8c-ad6c-36d751e686ac.png)
+![image](https://user-images.githubusercontent.com/76564889/170845964-d4d846cd-9d4d-478d-bbba-ca47a1e37c0c.png)
+![image](https://user-images.githubusercontent.com/76564889/170845967-c65d3ae3-85db-4c98-adaf-a5733563ebd4.png)
+![image](https://user-images.githubusercontent.com/76564889/170845980-0cf540b3-c9f5-482c-801f-5c1bee415c46.png)
+![image](https://user-images.githubusercontent.com/76564889/170845987-41122526-8b2d-45a3-afe5-f8bd148e5e56.png)
 
 
 
@@ -46,3 +50,6 @@ The tourist industry's development and expansion is influenced by a number of va
 
 ![image](https://user-images.githubusercontent.com/76564889/170841260-4aa21062-cad5-4e17-90db-2a9e9309f52c.png)
 
+<h2>❉Link to Our Website:https://ankitjha2711.github.io/BHARAT-PADHARO </h2>
+<h2>❉Link to Our Youtube Video:https://youtu.be/lwIg5Y3H4ls </h2>
+<h2>❉Link to Our Github Repository:https://github.com/ankitjha2711/BHARAT-PADHARO </h2>
