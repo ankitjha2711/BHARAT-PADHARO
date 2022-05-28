@@ -1,5 +1,8 @@
 <h2> Bharatपधारो  <img src="https://c.tenor.com/DtEGh1dnWmQAAAAi/nature-green.gif" height="40px" width=="100px"> </h2> 
 
+<h2>❉Link to Our Website:https://ankitjha2711.github.io/BHARAT-PADHARO </h2>
+<h2>❉Link to Our Youtube Video:https://youtu.be/lwIg5Y3H4ls </h2>
+<h2>❉Link to Our Github Repository:https://github.com/ankitjha2711/BHARAT-PADHARO </h2>
 
 <p><img src="https://thumbs.gfycat.com/WelloffWelllitDuiker.webp" height="60px" width=="100px"><h2>Tagline</h2></p><p>
   
@@ -50,6 +53,3 @@ The tourist industry's development and expansion is influenced by a number of va
 
 ![image](https://user-images.githubusercontent.com/76564889/170841260-4aa21062-cad5-4e17-90db-2a9e9309f52c.png)
 
-<h2>❉Link to Our Website:https://ankitjha2711.github.io/BHARAT-PADHARO </h2>
-<h2>❉Link to Our Youtube Video:https://youtu.be/lwIg5Y3H4ls </h2>
-<h2>❉Link to Our Github Repository:https://github.com/ankitjha2711/BHARAT-PADHARO </h2>
