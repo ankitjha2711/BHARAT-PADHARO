@@ -1,7 +1,8 @@
 <h2> Bharatपधारो  <img src="https://c.tenor.com/DtEGh1dnWmQAAAAi/nature-green.gif" height="40px" width=="100px"> </h2> 
-This project is made for the GDSC Hackathon.
 
 
+
+<p><img src="https://thumbs.gfycat.com/AmazingFatherlyCapybara.webp" height="60px" width=="100px"></p>
 Our websites provide all of the information on a national park in a specific state that the user has requested. Our website makes it simple to find nearby hotels and tourist attractions.
 There is also a tourist  guide service, which users may book without difficulty. If a user has any issues while using our website, he or she can contact us directly.
 
